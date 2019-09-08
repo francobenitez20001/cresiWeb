@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+.container h3{font-family: 'Baloo Bhai', cursive; font-size: 45px; color: #871645; font-weight: bold;}
+.container h4{font-family: 'Baloo Bhai', cursive; color: #a82e61}
+.title{font-size: 25px; color: #494747; font-weight: bold;}
+footer{background-color: #b3b3b3; color: #494747; height: 50px;padding-top: 10px;}

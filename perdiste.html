@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link href="https://file.myfontastic.com/W6y6DTyvDLS4t2WTkLaSyQ/icons.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<style media="screen">
+			.notice{
+				margin-top: 10%;
+			}
+		</style>
+</head>
+<body>
+	<div class="header">
+    <span class="header-logo">
+      <img src="img/logo2.png" alt="" width="90" height="90">
+    </span>
+  </div>
+	<div class="respuesta" id="lose">
+		<center><p class="incorrecto text-center">Perdiste</p></center>
+	</div>
+	<center><div class="notice">
+		<p class="texto_pregunta" id="texto_pregunta">Te has quedado sin vidas. Espera <span id="seg_espera">60</span> segundos para volver a jugar</p>
+	</div></center>
+	<br><br>
+	<center><a href="index.php" class="btn btn-success btn-lg" style="opacity:0; transition: all 0.4s;" id="btn">Volver a jugar</a></center>
+	<script src="js/reset.js" charset="utf-8"></script>
+</body>
+</html>
